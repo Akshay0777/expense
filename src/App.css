@@ -1,0 +1,108 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #87cefa, #ffffff); /* Add linear gradient background */
+}
+
+.app-container {
+  max-width: 500px; /* Reduce the outer box width */
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.input-group {
+  display: flex; /* Display label and input in a single row */
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 15px;
+}
+
+label {
+  flex: 2; /* 40% of the width */
+  margin-right: 10px;
+}
+
+input {
+  flex: 3; /* 60% of the width */
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto; /* Center the button */
+  margin-top: 15px; /* Add some top margin */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.expenses-list {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+li strong {
+  margin-right: 5px;
+}
+
+
+
+.container {
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 5px;
+}
+
+input[type="month"] {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
